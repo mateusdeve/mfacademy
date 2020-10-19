@@ -1,0 +1,195 @@
+.apresentacao {
+    height: 100vh;
+    width: 100%;
+    background:url('../../assets/images/bgHome.png') no-repeat;
+}
+
+.apresentacao .apresentacaoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+}
+
+.apresentacao .apresentacaoText h1 {
+    color: white;
+    font-size: 55px;
+}
+.apresentacao .apresentacaoText p {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.apresentacao .apresentacaoText button {
+    margin-top: 50px;
+    padding: 15px 30px;
+    border: none;
+    transition: all 0.3s ease;
+    background: white;
+    color: #002167;
+}
+
+.apresentacao .apresentacaoText button:hover {
+    background: #002167;
+    color: white;
+}
+
+.apresentacao .apresentacaoText button:focus {
+    outline: none;
+}
+
+.titulo {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.titulo h1 {
+    margin: 20px 0 20px 0;
+    font-size: 35px;
+    color: #002167;
+}
+
+.cursos .especifico {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding: 50px;
+}
+
+.cursos .especifico .imgCurso {
+    background: url("../../assets/images/1024x1024_appStore_naoTransparente.png") no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+
+.cursos .especifico .conteudoCurso {
+    margin-left: 50px;
+    align-self: center;
+}
+
+.cursos .especifico .conteudoCurso .subTitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cursos .especifico .conteudoCurso h1{
+    font-size: 20px;
+    width: 70%;
+    color: #002167;
+}
+
+.cursos .especifico .conteudoCurso .body{
+    margin-top: 20px;
+    width: 450px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.cursos .especifico .conteudoCurso button{
+    margin-top: 30px;
+    color: white;
+    padding: 10px 20px;
+    background: #FFBC01;
+    border: none;
+    cursor: pointer;
+
+}
+
+.professores .conteudo {
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.professores .conteudo .professor {
+    border-radius: 0px 60px 0px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background:url("../../assets/images/fadfaraj.jpg") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 320px;
+    height: 300px;
+}
+
+.card .nome{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    color: #002167;
+    
+}
+
+.card .funcao{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.mlplus {
+    margin-right: 100px;
+}
+
+.mtplus {
+    margin-top: 100px !important;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    height: 230px;
+    background: #e2e8f0;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+footer .social img{
+    width: 250px;
+}
+
+footer .social .textBody{
+    font-size: 14px;
+    width: 380px;
+}
+
+footer .social .groupText {
+
+    margin-top: 20px;
+    margin-left: 230px;
+}
+
+footer .social .groupText .tituloFooter{
+    font-size: 20px;
+    color: #002167;
+    font-weight: bold;
+}
+
+footer .social .groupText .subTituloFooter{
+    margin-top: 10px;
+}
