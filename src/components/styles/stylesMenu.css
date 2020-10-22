@@ -1,4 +1,6 @@
 #menu {
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 70px;
     background: #fff;
@@ -42,4 +44,43 @@
     
     font-size: 16px;
     font-weight: bold;
+}
+
+.menuGroupMob {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    #menu {
+        height: 90px;
+    }
+    #menu .menuGroup {
+        display: none;
+    }
+
+    .menuGroupMob {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menuGroupMob .imgLogomob {
+        width: 180px;
+    }
+
+    .menuGroupMob button {
+        padding: 7px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .menuGroupMob button:focus {
+        outline: none;
+    }
+
+    .menuGroupMob .imgMenuMob {
+        margin-top: 15px;
+        width: 35px;
+    }
 }

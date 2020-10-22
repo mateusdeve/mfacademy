@@ -1,4 +1,5 @@
 .apresentacao {
+    margin-top: 30px;
     height: 100vh;
     width: 100%;
     background:url('../../assets/images/bgHome.png') no-repeat;
@@ -9,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 190px;
+    height: 100vh;
 }
 
 .apresentacao .apresentacaoText h1 {
@@ -61,10 +62,12 @@
 }
 
 .cursos .especifico .imgCurso {
-    background: url("../../assets/images/1024x1024_appStore_naoTransparente.png") no-repeat;
+    background: url("../../assets/images/voluntarios.png") no-repeat;
+    background-position: center center;
     background-size: cover;
     width: 500px;
     height: 500px;
+    align-self: center;
 }
 
 
@@ -102,15 +105,14 @@
 }
 
 .professores .conteudo {
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 50px;
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
 }
 
 .professores .conteudo .professor {
-    border-radius: 0px 60px 0px 0px;
-    margin-left: 50px;
-    margin-right: 50px;
     background:url("../../assets/images/fadfaraj.jpg") no-repeat;
     background-size: contain;
     width: 100%;
@@ -118,20 +120,23 @@
 }
 
 .card {
-    margin-left: 50px;
-    margin-right: 50px;
     width: 320px;
     height: 300px;
+}
+
+.mt-card-divid {
+    margin-top: 110px !important;
 }
 
 .card .nome{
     width: 100%;
     font-size: 18px;
     margin-top: 2px;
-    margin-left: 50px;
-    margin-right: 50px;
     font-weight: bold;
     color: #002167;
+    
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
@@ -139,8 +144,8 @@
     width: 100%;
     margin-top: 10px;
     font-size: 14px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     
     font-weight: bold;
     color: #5A5A5A;
@@ -192,4 +197,96 @@ footer .social .groupText .tituloFooter{
 
 footer .social .groupText .subTituloFooter{
     margin-top: 10px;
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media(max-width: 600px) {
+    .cursos .especifico {
+        display: block;
+    }
+    .cursos .especifico .conteudoCurso {
+        margin-left: 50px;
+        align-self: center;
+        width: 100%;
+    }
+    .cursos .especifico {
+        height: 100vh;
+    }
+
+    .cursos .especifico .conteudoCurso .body{
+        width: 100%;
+    }
+    .cursos .especifico .imgCurso {
+        width: 100%;
+        height: 300px;
+
+        background-size: cover;
+    }
+
+    .apresentacao {
+        background-position: center center ;
+    }
+
+    .cursos .especifico .conteudoCurso {
+        margin-top: 30px;
+        margin-left: 0px;
+        align-self: center;
+    }
+    .mob-none {
+        display: none;
+    }
+
+    .apresentacaoText h1 {
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 90px !important;
+    }
+    
+    .mt-card-divid {
+        margin-top: 0px;
+    }
+
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+
+    .mobileimg {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .mobile img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .mobile p{
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        color: #002167;
+    }
+
+    .professores .conteudo {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
