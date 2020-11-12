@@ -13,7 +13,7 @@ const Home = () => {
             <section className="apresentacao">
                 <div className="apresentacaoText">
                     <h1>Formação Ministerial</h1>
-                    <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira tecnologia.</p>
+                    <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
                     <button>Saiba mais</button>
                 </div>
             </section>
@@ -31,11 +31,11 @@ const Home = () => {
                                 dolore magna aliqua. Ut enim ad minim veniam, quis
                                 nostrud exercitation ullamco laboris nisi ut aliquip
                                 ex ea commodo consequat.</p>
-                            <button>Matricule-se</button>
+                                <a href="https://api.whatsapp.com/send?phone=+55(61)984288058" target="_blanck" className="btnMatric">Matricule-se</a>
                         </div>
                     </div>
             </section>
-            <section className="professores">
+            {/* <section className="professores">
                 <div className="titulo">
                     <h1>Professores</h1>
                 </div>
@@ -75,34 +75,25 @@ const Home = () => {
                         <p className="nome">John Faraj</p>
                     </Grid>
                 </Grid>
-            </section>
+            </section> */}
             <footer className="web">
                 <div className="social">
                     <div>
                         <img src={logo} alt=""/>
-                        <p className="textBody">Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira tecnologia.</p>
-                    </div>
-                    <div className="groupText">
-                        <p className="tituloFooter">Titulo</p>
-                        <p className="subTituloFooter">Titulo</p>
-                        <p className="subTituloFooter">Titulo</p>
-                        <p className="subTituloFooter">Titulo</p>
+                        <p className="textBody">Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
                     </div>
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
-                        <p className="subTituloFooter">Titulo</p>
-                        <p className="subTituloFooter">Titulo</p>
-                        <p className="subTituloFooter">Titulo</p>
+                        <a href="https://api.whatsapp.com/send?phone=+55(61)984288058" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8428-8058</a>
+                        <a href="mailto:mateus.dev.ti@gmail.com" target="_blanck" className="subTituloFooter"><strong>Email:</strong>  mateus.dev.ti@gmail.com</a>
                     </div>
                 </div>
             </footer>
             <footer className="mobile">
-                <div>
                     <div className="mobileimg">
                         <img src={logo} alt=""/>    
                     </div>
-                    <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira tecnologia.</p>
-                </div>
+                    <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
             </footer>
         </div>
         </>

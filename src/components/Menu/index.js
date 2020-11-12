@@ -8,10 +8,10 @@ const Menu = () => {
             <div className="menuGroup">
                 <img src={logo} alt="Logo"/>
                 <div className="button">
-                    <a href="https://mfacademy.com.br/login">
+                    <a href="https://cursos.mfacademy.com.br/login">
                         Entrar
                     </a>
-                    <button>Matricule-se</button>
+                    <a href="https://api.whatsapp.com/send?phone=+55(61)984288058" target="_blanck" className="btnMatric">Matricule-se</a>
                 </div>
             </div>
 
