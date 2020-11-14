@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/stylesHome.css'
 import logo from '../../assets/images/logo.png'
-import Grid from '@material-ui/core/Grid';
 
 import Menu from '../../components/Menu'
 
@@ -14,7 +13,7 @@ const Home = () => {
                 <div className="apresentacaoText">
                     <h1>Formação Ministerial</h1>
                     <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
-                    <button>Saiba mais</button>
+                    {/* <button>Saiba mais</button> */}
                 </div>
             </section>
             <section className="cursos">
@@ -31,51 +30,10 @@ const Home = () => {
                                 dolore magna aliqua. Ut enim ad minim veniam, quis
                                 nostrud exercitation ullamco laboris nisi ut aliquip
                                 ex ea commodo consequat.</p>
-                                <a href="https://api.whatsapp.com/send?phone=+55(61)984288058" target="_blanck" className="btnMatric">Matricule-se</a>
+                                <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="btnMatric">Matricule-se</a>
                         </div>
                     </div>
             </section>
-            {/* <section className="professores">
-                <div className="titulo">
-                    <h1>Professores</h1>
-                </div>
-                <Grid
-                container
-                direction="row"
-                className="conteudo">
-                    <Grid item xs={8} sm={3} className="card">
-                        <div className="professor"></div>
-                        <p className="funcao">Pastor</p>
-                        <p className="nome">John Faraj</p>
-                    </Grid>
-                    <Grid item xs={8} sm={3} className="card">
-                        <div className="professor"></div>
-                        <p className="funcao">Pastor</p>
-                        <p className="nome">John Faraj</p>
-                    </Grid>
-                    <Grid item xs={8} sm={3} className="card">
-                        <div className="professor"></div>
-                        <p className="funcao">Pastor</p>
-                        <p className="nome">John Faraj</p>
-                    </Grid>
-                    <Grid item xs={12} className="mob-none"></Grid>
-                    <Grid item xs={8} sm={3} className="card mt-card-divid">
-                        <div className="professor"></div>
-                        <p className="funcao">Pastor</p>
-                        <p className="nome">John Faraj</p>
-                    </Grid>
-                    <Grid item xs={8} sm={3} className="card mt-card-divid">
-                        <div className="professor"></div>
-                        <p className="funcao">Pastor</p>
-                        <p className="nome">John Faraj</p>
-                    </Grid>
-                    <Grid item xs={8} sm={3} className="card mt-card-divid">
-                        <div className="professor"></div>
-                        <p className="funcao">Pastor</p>
-                        <p className="nome">John Faraj</p>
-                    </Grid>
-                </Grid>
-            </section> */}
             <footer className="web">
                 <div className="social">
                     <div>
@@ -84,8 +42,8 @@ const Home = () => {
                     </div>
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
-                        <a href="https://api.whatsapp.com/send?phone=+55(61)984288058" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8428-8058</a>
-                        <a href="mailto:mateus.dev.ti@gmail.com" target="_blanck" className="subTituloFooter"><strong>Email:</strong>  mateus.dev.ti@gmail.com</a>
+                        <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8428-8058</a>
+                        <a href="mailto:tferreiralopes@gmail.com" target="_blanck" className="subTituloFooter"><strong>Email:</strong>  tferreiralopes@gmail.com</a>
                     </div>
                 </div>
             </footer>

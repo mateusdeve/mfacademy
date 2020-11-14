@@ -50,6 +50,10 @@
     display: none;
 }
 
+.menuMob {
+    display: none;
+}
+
 @media(max-width: 600px) {
     #menu {
         height: 90px;
@@ -83,4 +87,59 @@
         margin-top: 15px;
         width: 35px;
     }
+
+    .menuMobActive {
+        display: flex;
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background: #fff;
+        z-index: 999;
+        width: 70%;
+    }
+
+    .menuMobActive button {
+        background: transparent;
+        border: none;
+        position: absolute;
+        margin-top: 20px;
+        margin-right: 35px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .menuMobActive .groupBtnMob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .btnMatricMob{
+        margin-top: 30px;
+        width: 70%;
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+        border: none;
+        background: #FFBC01;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .btnEntrarMob {
+        font-size: 22px;
+        font-weight: bold;
+        color: #002167;
+        text-decoration: none;
+    }
+    
+
+
+    
 }
