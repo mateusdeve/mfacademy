@@ -42,7 +42,7 @@ const Home = () => {
                     </div>
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
-                        <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8428-8058</a>
+                        <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
                         <a href="mailto:tferreiralopes@gmail.com" target="_blanck" className="subTituloFooter"><strong>Email:</strong>  tferreiralopes@gmail.com</a>
                     </div>
                 </div>
