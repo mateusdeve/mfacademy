@@ -311,5 +311,21 @@ footer .social .groupText .subTituloFooter{
     .apresentacao .apresentacaoText p {
         width: 90%;
     }
+
+    .footerGroup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerGroup a{
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    footer {
+        height: 400px;
+    }
     
 }

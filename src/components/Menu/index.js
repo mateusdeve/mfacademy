@@ -8,12 +8,10 @@ const Menu = () => {
     const menuMob = React.useRef(null);
     function handleMenu() {
         menuMob.current.className = 'menuMobActive';
-        console.log(menuMob.current);
     }
 
     function handleCloseMenu() {
         menuMob.current.className = 'menuMob';
-        console.log(menuMob.current);
     }
     return (
         <>

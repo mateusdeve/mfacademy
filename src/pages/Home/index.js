@@ -43,7 +43,7 @@ const Home = () => {
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
                         <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
-                        <a href="mailto:tferreiralopes@gmail.com" target="_blanck" className="subTituloFooter"><strong>Email:</strong>  tferreiralopes@gmail.com</a>
+                        <a href="mailto: suporte@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
                     </div>
                 </div>
             </footer>
@@ -52,6 +52,11 @@ const Home = () => {
                         <img src={logo} alt=""/>    
                     </div>
                     <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
+                    <div className="footerGroup">
+                        <p>Contato</p>
+                        <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
+                        <a href="mailto: suporte@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
+                    </div>
             </footer>
         </div>
         </>
