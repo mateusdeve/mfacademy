@@ -46,7 +46,7 @@ plataforma de alta tecnologia.</p>
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
                         <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
-                        <a href="mailto: atendimento@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
+                        <a href="mailto: atendimento@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   atendimento@mfacademy.com.br</a>
                     </div>
                 </div>
             </footer>
@@ -58,7 +58,7 @@ plataforma de alta tecnologia.</p>
                     <div className="footerGroup">
                         <p>Contato</p>
                         <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
-                        <a href="mailto: atendimento@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
+                        <a href="mailto: atendimento@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   atendimento@mfacademy.com.br</a>
                     </div>
             </footer>
         </div>
