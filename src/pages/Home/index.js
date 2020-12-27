@@ -11,8 +11,9 @@ const Home = () => {
             <Menu />
             <section className="apresentacao">
                 <div className="apresentacaoText">
-                    <h1>Formação Ministerial</h1>
-                    <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
+                    <h1>Formação Ministerial - Online</h1>
+                    <p>Você vai estudar, praticar, discutir e se aprofundar no evangelho do Senhor em uma
+plataforma de alta tecnologia.</p>
                     {/* <button>Saiba mais</button> */}
                 </div>
             </section>
@@ -25,11 +26,13 @@ const Home = () => {
                         <div className="conteudoCurso">
                             <p className="subTitle">Online</p>
                             <h1>Treinamento de voluntários e consolidados! </h1>
-                            <p className="body">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation ullamco laboris nisi ut aliquip
-                                ex ea commodo consequat.</p>
+                            <p className="body">Venha conhecer mais sobre a visão
+                                do Ministério da Fé, além de
+                                princípios de autoridade espiritual,
+                                disciplina e vocação que irão ajudar
+                                você a servir com excelência e
+                                leveza na casa do Senhor!
+                            </p>
                                 <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="btnMatric">Matricule-se</a>
                         </div>
                     </div>
@@ -43,7 +46,7 @@ const Home = () => {
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
                         <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
-                        <a href="mailto: suporte@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
+                        <a href="mailto: atendimento@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
                     </div>
                 </div>
             </footer>
@@ -55,7 +58,7 @@ const Home = () => {
                     <div className="footerGroup">
                         <p>Contato</p>
                         <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>
-                        <a href="mailto: suporte@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
+                        <a href="mailto: atendimento@mfacademy.com.br" target="_blanck" className="subTituloFooter"><strong>Email:</strong>   suporte@mfacademy.com.br</a>
                     </div>
             </footer>
         </div>
