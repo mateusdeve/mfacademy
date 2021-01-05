@@ -1,6 +1,6 @@
 .apresentacao {
   margin-top: 30px;
-  height: 70vh;
+  height: 50vh;
   width: 100%;
   background: url("../../assets/images/bgHome.png") no-repeat;
 }
@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 60vh;
 }
 
 .apresentacao .apresentacaoText h1 {
@@ -45,12 +45,11 @@
 
 .titulo {
   display: flex;
-  margin-top: 10px;
   justify-content: center;
 }
 
 .titulo h1 {
-  margin: 20px 0 20px 0;
+  margin: 30px 0 0px 0;
   font-size: 35px;
   color: #002167;
 }
@@ -59,7 +58,7 @@
   display: flex;
   justify-content: center;
   height: 80vh;
-  padding: 50px;
+  margin-top: 30px;
 }
 
 .cursos .especifico .imgCurso {
@@ -164,7 +163,7 @@
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 60px;
   display: flex;
   height: 230px;
   background: #e2e8f0;
@@ -329,5 +328,10 @@ footer .social .groupText .subTituloFooter {
 
   .apresentacao .apresentacaoText {
     height: 90vh;
+  }
+
+  .cursos .especifico {
+    padding: 50px;
+    margin-top: 0px;
   }
 }
