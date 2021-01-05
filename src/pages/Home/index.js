@@ -41,7 +41,7 @@ plataforma de alta tecnologia.</p>
                 <div className="social">
                     <div>
                         <img src={logo} alt=""/>
-                        <p className="textBody">Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
+                        <p className="textBody">Você vai estudar, praticar, discutir e se aprofundar no evangelho do Senhor em uma plataforma de alta tecnologia.</p>
                     </div>
                     <div className="groupText">
                         <p className="tituloFooter">Contato</p>
@@ -54,7 +54,7 @@ plataforma de alta tecnologia.</p>
                     <div className="mobileimg">
                         <img src={logo} alt=""/>    
                     </div>
-                    <p>Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira o evangelho.</p>
+                    <p>Você vai estudar, praticar, discutir e se aprofundar no evangelho do Senhor em uma plataforma de alta tecnologia.</p>
                     <div className="footerGroup">
                         <p>Contato</p>
                         <a href="https://api.whatsapp.com/send?phone=+55(61)981357453" target="_blanck" className="subTituloFooter"><strong>Tel:</strong> (61) 9 8135-7453</a>

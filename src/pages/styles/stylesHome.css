@@ -1,331 +1,333 @@
 .apresentacao {
-    margin-top: 30px;
-    height: 100vh;
-    width: 100%;
-    background:url('../../assets/images/bgHome.png') no-repeat;
+  margin-top: 30px;
+  height: 70vh;
+  width: 100%;
+  background: url("../../assets/images/bgHome.png") no-repeat;
 }
 
 .apresentacao .apresentacaoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.apresentacao .apresentacaoText h1 {
+  color: white;
+  font-size: 55px;
+}
+.apresentacao .apresentacaoText p {
+  width: 50%;
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.apresentacao .apresentacaoText button {
+  margin-top: 50px;
+  padding: 15px 30px;
+  border: none;
+  transition: all 0.3s ease;
+  background: white;
+  color: #002167;
+}
+
+.apresentacao .apresentacaoText button:hover {
+  background: #002167;
+  color: white;
+}
+
+.apresentacao .apresentacaoText button:focus {
+  outline: none;
+}
+
+.titulo {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.titulo h1 {
+  margin: 20px 0 20px 0;
+  font-size: 35px;
+  color: #002167;
+}
+
+.cursos .especifico {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  padding: 50px;
+}
+
+.cursos .especifico .imgCurso {
+  border: 1px solid #ccc;
+  background: url("../../assets/images/curso1.jpeg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  align-self: center;
+}
+
+.cursos .especifico .conteudoCurso {
+  margin-left: 50px;
+  align-self: center;
+}
+
+.cursos .especifico .conteudoCurso .subTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cursos .especifico .conteudoCurso h1 {
+  font-size: 20px;
+  width: 70%;
+  color: #002167;
+}
+
+.cursos .especifico .conteudoCurso .body {
+  margin-top: 20px;
+  width: 450px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.cursos .especifico .conteudoCurso .btnMatric {
+  height: 40px;
+  justify-content: center;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  background: #ffbc01;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.professores .conteudo {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.professores .conteudo .professor {
+  background: url("../../assets/images/fadfaraj.jpg") no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  width: 320px;
+  height: 300px;
+}
+
+.mt-card-divid {
+  margin-top: 110px !important;
+}
+
+.card .nome {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: #002167;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card .funcao {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.mlplus {
+  margin-right: 100px;
+}
+
+.mtplus {
+  margin-top: 100px !important;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  height: 230px;
+  background: #e2e8f0;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  margin: 20px 100px 0px 100px;
+}
+
+footer .social img {
+  width: 250px;
+}
+
+footer .social .textBody {
+  font-size: 14px;
+  width: 380px;
+}
+
+footer .social .groupText {
+  margin-top: 35px;
+}
+
+footer .social .groupText .tituloFooter {
+  font-size: 20px;
+  color: #002167;
+  font-weight: bold;
+}
+
+footer .social .groupText a {
+  display: block;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+footer .social .groupText .subTituloFooter {
+  margin-top: 10px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .cursos .especifico {
+    display: block;
+  }
+  .cursos .especifico .conteudoCurso {
+    margin-left: 50px;
+    align-self: center;
+    width: 100%;
+  }
+  .cursos .especifico {
+    height: 100vh;
+  }
+
+  .cursos .especifico .conteudoCurso .body {
+    width: 100%;
+  }
+  .cursos .especifico .imgCurso {
+    width: 100%;
+    height: 300px;
+
+    background-size: cover;
+  }
+
+  .apresentacao {
+    background-position: center center;
+  }
+
+  .cursos .especifico .conteudoCurso {
+    margin-top: 30px;
+    margin-left: 0px;
+    align-self: center;
+  }
+  .mob-none {
+    display: none;
+  }
+
+  .apresentacaoText h1 {
+    text-align: center;
+  }
+
+  .card {
+    margin-top: 90px !important;
+  }
+
+  .mt-card-divid {
+    margin-top: 0px;
+  }
+
+  .web {
+    display: none;
+  }
+  .mobile {
+    margin-top: 0px !important;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
+    align-content: center;
+    align-self: center;
+  }
 
-.apresentacao .apresentacaoText h1 {
-    color: white;
-    font-size: 55px;
-}
-.apresentacao .apresentacaoText p {
-    width: 50%;
-    margin-top: 10px;
-    color: white;
-    font-size: 18px;
+  .mobileimg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .mobile img {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  .mobile p {
+    width: 80%;
+    font-size: 17px;
+    font-weight: 600;
     text-align: center;
-}
-
-.apresentacao .apresentacaoText button {
-    margin-top: 50px;
-    padding: 15px 30px;
-    border: none;
-    transition: all 0.3s ease;
-    background: white;
     color: #002167;
-}
+    margin-bottom: 30px;
+  }
 
-.apresentacao .apresentacaoText button:hover {
-    background: #002167;
-    color: white;
-}
-
-.apresentacao .apresentacaoText button:focus {
-    outline: none;
-}
-
-.titulo {
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.titulo h1 {
-    margin: 20px 0 20px 0;
-    font-size: 35px;
-    color: #002167;
-}
-
-.cursos .especifico {
+  .professores .conteudo {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
+  }
+
+  .apresentacao .apresentacaoText p {
+    width: 90%;
+  }
+
+  .footerGroup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerGroup a {
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  footer {
+    height: 400px;
+  }
+
+  .apresentacao {
     height: 80vh;
-    padding: 50px;
-}
+  }
 
-.cursos .especifico .imgCurso {
-    border: 1px solid #ccc;
-    background: url("../../assets/images/curso1.jpeg") no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    align-self: center;
-}
-
-
-.cursos .especifico .conteudoCurso {
-    margin-left: 50px;
-    align-self: center;
-}
-
-.cursos .especifico .conteudoCurso .subTitle{
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.cursos .especifico .conteudoCurso h1{
-    font-size: 20px;
-    width: 70%;
-    color: #002167;
-}
-
-.cursos .especifico .conteudoCurso .body{
-    margin-top: 20px;
-    width: 450px;
-    font-size: 14px;
-    margin-bottom: 40px;
-    margin-right: 20px;
-}
-
-.cursos .especifico .conteudoCurso .btnMatric{
-    height: 40px;
-    justify-content: center;
-    padding: 10px 20px 10px 20px;
-    border: none;
-    background: #FFBC01;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-
-}
-
-.professores .conteudo {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.professores .conteudo .professor {
-    background:url("../../assets/images/fadfaraj.jpg") no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-}
-
-.card {
-    width: 320px;
-    height: 300px;
-}
-
-.mt-card-divid {
-    margin-top: 110px !important;
-}
-
-.card .nome{
-    width: 100%;
-    font-size: 18px;
-    margin-top: 2px;
-    font-weight: bold;
-    color: #002167;
-    
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
-
-.card .funcao{
-    width: 100%;
-    margin-top: 10px;
-    font-size: 14px;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-    font-weight: bold;
-    color: #5A5A5A;
-}
-
-.mlplus {
-    margin-right: 100px;
-}
-
-.mtplus {
-    margin-top: 100px !important;
-}
-
-footer {
-    margin-top: 100px;
-    display: flex;
-    height: 230px;
-    background: #e2e8f0;
-}
-
-footer .social {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-    width: 100%;
-    margin: 20px 100px 0px 100px;
-}
-
-footer .social img{
-    width: 250px;
-}
-
-footer .social .textBody{
-    font-size: 14px;
-    width: 380px;
-}
-
-footer .social .groupText {
-
-    margin-top: 35px;
-}
-
-footer .social .groupText .tituloFooter{
-    font-size: 20px;
-    color: #002167;
-    font-weight: bold;
-}
-
-footer .social .groupText a {
-    display: block;
-    font-size: 15px;
-    color: black;
-    text-decoration: none;
-}
-
-footer .social .groupText .subTituloFooter{
-    margin-top: 10px;
-}
-
-.mobile {
-    display: none;
-}
-
-
-@media(max-width: 600px) {
-    .cursos .especifico {
-        display: block;
-    }
-    .cursos .especifico .conteudoCurso {
-        margin-left: 50px;
-        align-self: center;
-        width: 100%;
-    }
-    .cursos .especifico {
-        height: 100vh;
-    }
-
-    .cursos .especifico .conteudoCurso .body{
-        width: 100%;
-    }
-    .cursos .especifico .imgCurso {
-        width: 100%;
-        height: 300px;
-
-        background-size: cover;
-    }
-
-    .apresentacao {
-        background-position: center center ;
-    }
-
-    .cursos .especifico .conteudoCurso {
-        margin-top: 30px;
-        margin-left: 0px;
-        align-self: center;
-    }
-    .mob-none {
-        display: none;
-    }
-
-    .apresentacaoText h1 {
-        text-align: center;
-    }
-
-    .card {
-        margin-top: 90px !important;
-    }
-    
-    .mt-card-divid {
-        margin-top: 0px;
-    }
-
-    .web {
-        display: none;
-    }
-    .mobile {
-        margin-top: 0px !important;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        align-self: center;
-    }
-
-    .mobileimg {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .mobile img{
-        width: 280px;
-        margin-bottom: 20px;
-    }
-
-    .mobile p{
-        width: 80%;
-        font-size: 17px;
-        font-weight: 600;
-        text-align: center;
-        color: #002167;
-        margin-bottom: 30px;
-    }
-
-    .professores .conteudo {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-top: 0px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .apresentacao .apresentacaoText p {
-        width: 90%;
-    }
-
-    .footerGroup {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footerGroup a{
-        text-decoration: none;
-        margin-bottom: 20px;
-    }
-    footer {
-        height: 400px;
-    }
-    
+  .apresentacao .apresentacaoText {
+    height: 90vh;
+  }
 }
